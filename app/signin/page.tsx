@@ -46,7 +46,7 @@ export default function SigninPage() {
 
         <button
           onClick={handleSignin}
-          className="w-full bg-indigo-600 text-white py-3 rounded-md font-semibold hover:bg-indigo-700 transition"
+          className="w-full bg-indigo-600 text-white py-3 rounded-md font-semibold hover:bg-indigo-700 cursor-pointer transition"
         >
           Sign In
         </button>

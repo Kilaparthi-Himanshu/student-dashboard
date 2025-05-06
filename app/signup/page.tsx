@@ -51,7 +51,7 @@ export default function SignupPage() {
 
         <button
           onClick={handleSignup}
-          className="w-full bg-indigo-600 text-white py-3 rounded-md font-semibold hover:bg-indigo-700 transition"
+          className="w-full bg-indigo-600 text-white py-3 rounded-md font-semibold hover:bg-indigo-700 cursor-pointer transition"
         >
           Sign Up
         </button>
