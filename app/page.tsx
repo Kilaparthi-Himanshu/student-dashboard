@@ -66,15 +66,15 @@ export default function HomePage() {
                     </h1>
                     <div className="flex gap-4">
                         <Link href="/add">
-                        <button className="bg-indigo-600 text-white px-4 py-3 rounded-md hover:bg-indigo-700 transition cursor-pointer">
-                            ➕ Add Student
-                        </button>
+                            <button className="bg-indigo-600 text-white px-4 py-3 rounded-md hover:bg-indigo-700 transition cursor-pointer">
+                                ➕ Add Student
+                            </button>
                         </Link>
                         <button
-                        onClick={handleLogout}
-                        className="bg-red-100 text-red-600 px-4 py-2 rounded-md hover:bg-red-200 transition border border-red-300 cursor-pointer"
+                            onClick={handleLogout}
+                            className="bg-red-100 text-red-600 px-4 py-2 rounded-md hover:bg-red-200 transition border border-red-300 cursor-pointer"
                         >
-                        🚪 Logout
+                            🚪 Logout
                         </button>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ export default function HomePage() {
 
 
                 <div className="mt-4">
-                <StudentList students={filtered} />
+                    <StudentList students={filtered} />
                 </div>
             </div>
             <Toaster position="top-right" />
