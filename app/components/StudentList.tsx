@@ -100,7 +100,7 @@ export default function StudentList({ students }: { students: any[] }) {
                 ))}
             </ul>
             {editing && (
-                <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50" onClick={() => setEditing(null)}>
+                <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50 p-2" onClick={() => setEditing(null)}>
                     <div className="bg-white rounded-lg p-6 w-full max-w-md shadow-lg relative" onClick={(e) => e.stopPropagation()}>
                         <h2 className="text-xl font-bold text-indigo-700 mb-4">Edit Student</h2>
                         <input

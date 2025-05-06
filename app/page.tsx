@@ -60,7 +60,7 @@ export default function HomePage() {
   return (
         <main className="min-h-screen bg-gradient-to-tr from-blue-50 to-indigo-100 p-6">
             <div className="max-w-4xl mx-auto bg-white shadow-2xl rounded-xl p-8">
-                <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
                     <h1 className="text-3xl font-extrabold text-indigo-700 tracking-tight">
                         🎓 Student Dashboard
                     </h1>
