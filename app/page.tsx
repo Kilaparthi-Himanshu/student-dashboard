@@ -66,7 +66,7 @@ export default function HomePage() {
                     </h1>
                     <div className="flex gap-4">
                         <Link href="/add">
-                        <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition cursor-pointer">
+                        <button className="bg-indigo-600 text-white px-4 py-3 rounded-md hover:bg-indigo-700 transition cursor-pointer">
                             ➕ Add Student
                         </button>
                         </Link>
